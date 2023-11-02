@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+h3 {
+    padding: 28px;
+}
+
+h2, p {
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0px 0px 15px;
+}
+
+img {
+    display: flex;
+    justify-content: left;
+    max-width: 100%; 
+    margin-right: 10px; 
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 0px;
+    height: 65px;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    border-top: 1px solid black;
+    background: solid white;
+}
+
+.credit {
+    padding: 24px 0px 0px 145px;
+    text-align: center;
+    font-size: 0.75em;
+    color: #ccc;
+}
+.credit a {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    color: #ccc;
+}
+
+nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-hover:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.icons {
+    padding: 0px 0px 0px 0px;
+}
+
+.hero {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    padding: 10px 0px 10px 0px;
+}
+
+.text {
+    flex-grow: 1;
+    padding: 20px 0px 0px 20px;
+    margin-top: 20px;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.text h3 {
+    text-align: left;
+    padding: 0px 0px 0px 0px
+}
+
+
+button {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+
+.back:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.back {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    text-decoration: underline;
+}
+
